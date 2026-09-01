@@ -8,10 +8,14 @@ export default {
     extend: {
       colors: {
         brand: {
-          purple: '#4c1d95', // Roxo marcante do Açaí
-          dark: '#2e1065',
-          accent: '#16a34a', // Verde para botões de confirmação/WhatsApp
-          light: '#f3e8ff'
+          purple: '#3b0764',      // Roxo Açaí Profundo
+          purpleDark: '#2a0547',  // Roxo escuro para cabeçalhos e destaques
+          gold: '#d97706',        // Dourado/Âmbar acolhedor
+          goldHover: '#b45309',   // Dourado para estado ativo/hover
+          goldLight: '#fef3c7',   // Dourado bem suave para fundos de destaque
+          bgSoft: '#faf8f5',      // Off-white suave descanso visual
+          cardBg: '#ffffff',      // Branco limpo para os cards de produtos
+          green: '#16a34a',       // Verde WhatsApp intuitivo
         }
       }
     },
